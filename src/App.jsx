@@ -1,14 +1,4 @@
-import Gallery from "./Gallery";
-import SearchForm from "./SearchForm";
-import ThemeToggle from "./ThemeToggle";
-
 const App = () => {
-  return (
-    <main>
-      <ThemeToggle />
-      <SearchForm />
-      <Gallery />
-    </main>
-  );
+  return <h1>Unsplash Images Starter</h1>;
 };
 export default App;
